@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background-image: url('../images/bck.jpg');
+    background-size: contain;
+    height: 500px;
+    color: white;
+   
+   
+}
+.navbar{
+    color: rgb(223, 11, 11);
+    font-size: 1.2rem;
+}
+
+.nav-link{
+    color: white;
+    font-size: 1.2rem;
+}
+ .note1 p{
+    float: right;
+    display: inline;
+}
+.img{
+    float: left;
+    display: inline;
+}
+h1{
+    
+    font-size: 8px;
+    text-align: center;
+}
+.heading{
+    font-size: 8rem;
+    margin-top: 20px;
+}
+.heads{
+    width:60%;
+    height: 20%;
+    margin: auto;
+
+}
+.head-cont{
+   color: rgb(218, 212, 218);
+   font-size: 1.5rem;
+}
+li{
+    display: block;
+}
+.blog{
+  width: 100%;
+   margin-left: 0;
+    border: 2px solid red;
+    padding: 10px;
+   margin-bottom: 20px;
+    
+}
+
+.note1{
+    display: inline-block;
+    grid-column: 1;
+    border: 2px solid green;
+    overflow: scroll;
+    width: 48%;
+
+}
+.wrapper {
+border: 2px solid blue;
+padding: 40px;
+    text-align: center;
+   
+}
+ 
+  
+  .footer{
+      margin: 2px;
+      text-align: center;
+      padding: 40px;
+  }
+      
+  
